@@ -1,0 +1,12 @@
+Model,Accuracy,F1 Score,CV Accuracy,Best Params
+Decision Tree,1.0,1.0,1.0,"{'criterion': 'gini', 'max_depth': 2}"
+XGBoost,1.0,1.0,1.0,"{'learning_rate': 0.01, 'max_depth': 2, 'n_estimators': 50}"
+Random Forest,1.0,1.0,1.0,"{'max_depth': 2, 'n_estimators': 50}"
+Lasso Logistic Regression,1.0,1.0,0.9962500000000001,{'C': 10}
+SVM,0.99,0.9920634920634921,0.9962500000000001,"{'C': 10, 'kernel': 'linear'}"
+Elastic Net Logistic Regression,0.985,0.9880478087649402,0.9962500000000001,"{'C': 10, 'l1_ratio': 0.8}"
+Logistic Regression,0.98,0.9841269841269841,0.9962500000000001,"{'C': 10, 'solver': 'lbfgs'}"
+Logistic Regression (ADASYN),0.98,0.984,0.9900940840352692,"{'C': 10, 'solver': 'lbfgs'}"
+KNN,0.92,0.936,0.9099999999999999,"{'algorithm': 'auto', 'n_neighbors': 6}"
+Naive Bayes,0.92,0.9354838709677419,0.9275,{}
+Ridge Classifier,0.905,0.929368029739777,0.9237499999999998,{'alpha': 0.1}

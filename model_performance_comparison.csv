@@ -1,0 +1,23 @@
+Model,Accuracy,F1 Score,Tuning Stage
+Decision Tree,1.0,1.0,Original
+XGBoost,1.0,1.0,Original
+Random Forest,1.0,1.0,Original
+Lasso Logistic Regression,0.99,0.992,Original
+Logistic Regression,0.975,0.98,Original
+Elastic Net Logistic Regression,0.975,0.98,Original
+Logistic Regression (ADASYN),0.965,0.972,Original
+SVM,0.94,0.953,Original
+KNN,0.925,0.941,Original
+Naive Bayes,0.92,0.935,Original
+Ridge Classifier,0.905,0.929,Original
+Decision Tree,1.0,1.0,Tuned
+XGBoost,1.0,1.0,Tuned
+Random Forest,1.0,1.0,Tuned
+Lasso Logistic Regression,1.0,1.0,Tuned
+SVM,0.99,0.9920634920634921,Tuned
+Elastic Net Logistic Regression,0.985,0.9880478087649402,Tuned
+Logistic Regression,0.98,0.9841269841269841,Tuned
+Logistic Regression (ADASYN),0.98,0.984,Tuned
+KNN,0.92,0.936,Tuned
+Naive Bayes,0.92,0.9354838709677419,Tuned
+Ridge Classifier,0.905,0.929368029739777,Tuned

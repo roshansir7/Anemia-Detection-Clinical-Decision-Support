@@ -1,0 +1,12 @@
+Model,Accuracy,AUC,Precision,Recall,F1 Score
+Decision Tree,1.0,1.0,1.0,1.0,1.0
+XGBoost,1.0,1.0,1.0,1.0,1.0
+Random Forest,1.0,1.0,1.0,1.0,1.0
+Lasso Logistic Regression,0.99,1.0,1.0,0.984,0.992
+Logistic Regression,0.975,0.995,0.992,0.969,0.98
+Elastic Net Logistic Regression,0.975,0.997,0.992,0.969,0.98
+Logistic Regression (ADASYN),0.965,0.996,1.0,0.945,0.972
+SVM,0.94,0.99,0.953,0.953,0.953
+KNN,0.925,0.971,0.938,0.945,0.941
+Naive Bayes,0.92,0.965,0.959,0.913,0.935
+Ridge Classifier,0.905,0.876,0.88,0.984,0.929
